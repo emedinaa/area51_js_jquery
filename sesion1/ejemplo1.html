@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			//alert("Hola Mundo ");
+		</script>
+	</head>
+	<body>
+		<p  id="p1">Alerta </p>
+		<h2 id="demo"> :) </h2>
+		<button id="btn1" type="button" onclick="mensaje3()">Click</button>
+		<script type="text/javascript">
+			console.log("mensaje de consola script js ");
+			//alert("Hola Mundo body ");
+			function mensaje()
+			{
+				//alert("Hola Mundo body ");
+				var demo=document.getElementById("demo");//acceder al elemento
+				var btn1=document.getElementById("btn1");
+
+				//demo.innerHTML=":) :) :/ "; //propiedad del elemento
+				demo.innerHTML=Math.PI//Date(); //funciones de JS
+
+				console.log("mensaje console 2 ");
+
+			}
+			function mensaje2()
+			{
+				document.write("<h1>Mensaje 2</h1>");
+				document.write("<h3>Mensaje 2</h3>");
+			}
+			function mensaje3()
+			{
+				var p1=document.getElementById("p1");
+				p1.style.color="#ffff00";
+			}
+		</script>
+	</body>
+</html>

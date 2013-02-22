@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+			<p> Hola Mundo </p>
+			<input id="txt" type="text"></input>
+			<button id="btn" type="button" onclick="validar()">Enviar </button>
+			<script type="text/javascript">
+				function validar()
+				{
+					//alert("validando...");
+					var txt=document.getElementById("txt");
+					var v=txt.value;
+					if(v=="" || isNaN(v))
+					{
+						alert("escribe un número")
+					}
+				}
+			</script>
+	</body>
+
+</html>
