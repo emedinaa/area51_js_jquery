@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<p>Javascript</p>
+		<img id="img" src="assets/pic_bulboff.gif">
+		<button type="button" onclick="change()">Click</button>
+		<script type="text/javascript">
+			console.log("javascript");
+			var myEstado="off";//off
+			var myImg=document.getElementById("img");
+			
+			function change()
+			{
+				if(myEstado=="on")//foco en off
+				{
+					myImg.src="assets/pic_bulboff.gif";
+					myEstado="off";
+				}else
+				{
+					myImg.src="assets/pic_bulbon.gif";
+					myEstado="on";
+				}
+			}
+		// alert("javascript");
+			//comentario linea
+			/*
+				comentarios de màs de una
+				linea
+			*/
+		</script>	
+	
+	</body>
+</html>

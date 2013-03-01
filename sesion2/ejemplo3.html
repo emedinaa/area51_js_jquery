@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<input id="input1" type="text"></input>
+		<button type="button" onclick="sumar()">Sumar</button><br/>
+		<input id="input2" type="text"></input>
+		<button type="button" onclick="restar()">Restar</button><br/>
+		<b>Resultado </b><input id="resultado" type="text"></input>
+
+		<script type="text/javascript">
+			
+			var input1=document.getElementById("input1");
+			var input2=document.getElementById("input2");
+			var resultado=document.getElementById("resultado");
+
+			var op1=0;
+			var op2=0;
+			var operacion=0;
+			function sumar()
+			{
+				//parseInt();
+				op1=parseInt(input1.value);//parsear
+				op2=parseInt(input2.value);
+
+				operacion=op1+op2; //operador +
+				console.log("operacion suma ",operacion);
+				resultado.value=operacion;
+			}
+			function restar()
+			{
+				op1=parseInt(input1.value);
+				op2=parseInt(input2.value);
+
+				operacion=op1-op2; //operador - * / Math Math.PI Math.E
+				resultado.value=operacion;
+			}
+		</script>
+	</body>
+</html>

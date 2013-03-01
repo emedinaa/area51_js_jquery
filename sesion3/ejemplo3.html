@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<button onclick="validar()">Validar</button>
+			<h2 id="resultado"></h2>
+		</div>
+		<script type="text/javascript">
+			function validar()
+			{
+				var day= new Date().getDay();
+				//alert("date  "+ new Date());
+				//alert("day   "+ day);
+				var message="";
+
+				switch(day)
+				{
+					case 1://lunesç
+							//alert("LUNES aburrido !");
+							message="LUNES aburrido !"
+						break;
+					case 2://martes
+							//alert("MARTES no hice la tarea !");
+							message="MARTES no hice la tarea !"
+						break;
+					case 3://miercoles
+							//alert("MIERCOLES si se puede !!!");
+							message="MIERCOLES si se puede !!!";
+						break;
+
+					case 4://jueves
+							//alert("Hice mi tarea YIII !!!");	
+							message="JUEVES no llego tarde !!!";
+						break;
+
+					case 5://viernes
+							message="viernes de verano!!!";
+						break;
+					default:
+							//alert("en que planeta vives ?");
+							message="free ...";
+						break;
+				}
+				//termino
+				document.getElementById("resultado").innerHTML=message;
+			}
+		</script>
+
+	</body>
+</html>

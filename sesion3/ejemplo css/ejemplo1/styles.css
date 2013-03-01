@@ -1,0 +1,34 @@
+#principal {
+	width: 400px;
+	height: 100px;
+	background-color: #83e5e2;
+	padding: 50px;
+}
+
+#rojo {
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	float: left;
+	margin-right: 30px;
+}
+#naranja {
+	width: 70px;
+	height: 70px;
+	background-color: orange;
+	float: left;
+	margin-right: 30px;
+}
+#amarillo {
+	width: 70px;
+	height: 70px;
+	background-color: yellow;
+	float: left;
+	margin-right: 30px;
+}
+#verde {
+	width: 70px;
+	height: 70px;
+	background-color: green;
+	float: left;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<p>Edad :</p><input id="edad" type="text" value="15"></input><br/>
+			<button onclick="validar()">Validar</button>
+			<h2 id="resultado"></h2>
+		</div>
+		<script type="text/javascript">
+			function validar()
+			{
+				var input=document.getElementById("edad");
+				var edad=input.value;
+				//alert("Ingresaste la edad "+edad);
+				console.log("edad ",edad);
+
+				if(edad < 18)//operador de comparaciòn
+				{
+					//alert("wiiiiiiiiiii !");
+					alert(":( ");
+
+				}else if(edad >=18  && edad<41) //||
+				{
+					alert("wiiiiiiiiii :) ");
+				}else
+				{
+					alert("tas tio :( ");
+				}
+
+				/*
+				if(edad >= 18)//operador de comparaciòn
+				{
+					//alert("wiiiiiiiiiii !");
+					if(edad>40)
+					{
+						alert("tas tio :( ");
+					}else
+					{
+						alert("wiiiiiiiiiiiii :) ");
+					}
+				}else
+				{
+					alert(" :( ");
+				}
+				*/
+				/*
+					if(edad >= 18)//operador de comparaciòn
+					{
+						alert("wiiiiiiiiiii !");
+					}else
+					{
+						alert(" :( ");
+					}
+				*/
+				/*if(edad<18)
+				{
+					alert(" :( ");
+				}*/
+			}
+		</script>
+
+	</body>
+</html>
