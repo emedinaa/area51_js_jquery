@@ -1,23 +1,24 @@
 area51_js_jquery
 ================
+Instructor : Eduardo Medina Alfaro / emedinaa@qd.pe
 
-area51_js_jquery Html5 CSS3 JS
+Febrero - Marzo  2013
 
-Html5 + Css + Js
-Febrero 2013
+Javascript y Jquery
+====================================================
 
- Sesion1 : Introducciòn a Javascript
+Sesion 1 : Introducciòn a Javascript
 
- Sesion2 : Fundamentos de Javascript , variables ,tipo de datos y  sintaxis
+Sesion 2 : Fundamentos de Javascript , variables ,tipo de datos y  sintaxis
 
- Sesion3 : Estructuras de control y bucles
+Sesion 3 : Estructuras de control y bucles
 
- Sesion4 : Fundamentos de jQuery
+Sesion 4 : Fundamentos de jQuery
 
- Sesion5 : Eventos
+Sesion 5 : Eventos
 
- Sesion6 : Efectos y Animaciones
+Sesion 6 : Efectos y Animaciones
 
- Sesion7 : Ajax Json
- 
- Sesion8 : API's Html5
+Sesion 7 : Ajax Json
+
+Sesion 8 : API's Html5
