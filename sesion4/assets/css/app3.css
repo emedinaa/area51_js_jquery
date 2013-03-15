@@ -1,0 +1,23 @@
+#content
+{
+	width: 400px;
+	height: 200px;
+	background-color: #ff00ff;
+	float: left;
+}
+#content2
+{
+	width: 200px;
+	height: 500px;
+	background-color: #ffff00;
+	float: left;
+}
+.mydiv
+{
+	width:  50px;
+	height: 50px;
+	background-color: #00ffff;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
