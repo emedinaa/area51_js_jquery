@@ -1,5 +1,5 @@
-area51_js_jquery
-================
+AREA51 HTML5 + CSS3 + JS
+====================================================
 Instructor : Eduardo Medina Alfaro / emedinaa@qd.pe
 
 Febrero - Marzo  2013
